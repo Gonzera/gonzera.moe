@@ -1,0 +1,48 @@
+body {
+    /* background-color: #000000; */
+    color: #43f00a;
+  }
+  
+.terminal {
+  background-color: #000000;
+  font-family: 'Source Code Pro', monospace;
+  overflow: auto;
+  font-size: 13px;
+  background-color: #0C090A;
+  color: #b3b8c3;
+  width: 600px;
+  border: solid 2px #1e1e1e;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 3px;
+  word-break: break-word;
+  overflow-wrap: break-word;
+  overflow-x: hidden;
+}
+
+#blogpost {
+    display: table;
+    margin-top: 5px;
+    text-decoration: none;
+}
+
+pre {
+    white-space: pre-wrap;       /* Since CSS 2.1 */
+    white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+    white-space: -pre-wrap;      /* Opera 4-6 */
+    white-space: -o-pre-wrap;    /* Opera 7 */
+    word-wrap: break-word;       /* Internet Explorer 5.5+ */
+}
+
+.links {
+  text-decoration: none;
+  font-family: 'Source Code Pro', monospace;
+  color: #a3a3a3;
+}
+
+.links:hover {
+  background-color: #737272;
+  cursor: pointer;
+}
+  
+  
