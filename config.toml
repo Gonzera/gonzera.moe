@@ -1,1 +1,5 @@
 pagination.pagerSize = 5
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
