@@ -21,7 +21,6 @@ body {
 }
 
 #blogpost {
-    display: table;
     margin-top: 5px;
     text-decoration: none;
 }
@@ -43,6 +42,66 @@ pre {
 .links:hover {
   background-color: #737272;
   cursor: pointer;
+}
+
+/* Mobile responsive styles */
+@media screen and (max-width: 768px) {
+  .terminal {
+    width: 90%;
+    max-width: 90%;
+    font-size: 12px;
+    padding: 8px;
+  }
+
+  #blogpost {
+    margin-top: 10px;
+  }
+
+  pre {
+    font-size: 10px;
+    overflow-x: auto;
+  }
+
+  h1 {
+    font-size: 1.3rem;
+  }
+
+  img {
+    max-width: 80%;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .terminal {
+    width: 95%;
+    max-width: 95%;
+    font-size: 11px;
+    padding: 6px;
+  }
+
+  #blogpost {
+    margin-top: 8px;
+  }
+
+  pre {
+    font-size: 8px;
+    overflow-x: auto;
+  }
+
+  h1 {
+    font-size: 1.1rem;
+  }
+
+  img {
+    max-width: 70%;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+  }
+
 }
   
   

@@ -40,5 +40,25 @@ pre {
   background-color: #737272;
   cursor: pointer;
 }
-  
+
+/* Mobile responsive styles */
+@media screen and (max-width: 768px) {
+  .terminal {
+    width: 90%;
+    max-width: 90%;
+    font-size: 12px;
+    padding: 8px;
+    top: 50%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .terminal {
+    width: 95%;
+    max-width: 95%;
+    font-size: 10px;
+    padding: 6px;
+    top: 50%;
+  }
+}
   

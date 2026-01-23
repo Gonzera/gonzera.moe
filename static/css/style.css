@@ -125,3 +125,92 @@ body {
     }
   }
   
+  /* Mobile responsive styles */
+  @media screen and (max-width: 768px) {
+    #logo {
+      max-width: 25%;
+    }
+  
+    .cool {
+      width: 90%;
+      font-size: 0.9rem;
+    }
+  
+    .stuff {
+      width: 90%;
+      font-size: 0.85rem;
+    }
+  
+    .stuff h1 {
+      font-size: 1.2rem;
+      padding-left: 2%;
+    }
+  
+    .stuff p {
+      font-size: 0.9rem;
+      padding-left: 2%;
+      padding-right: 2%;
+    }
+  
+    .wrapper {
+      width: 90%;
+      grid-template-columns: 50% 50%;
+      font-size: 0.85rem !important;
+    }
+  
+    .wrapper > div {
+      padding: 8px 4px;
+    }
+  
+    .terminal {
+      width: 90%;
+      max-width: 333px;
+      font-size: 11px;
+      padding: 8px;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    #logo {
+      max-width: 30%;
+    }
+  
+    .cool {
+      width: 95%;
+      font-size: 0.8rem;
+    }
+  
+    .cool h1 {
+      font-size: 1rem;
+    }
+  
+    .stuff {
+      width: 95%;
+      font-size: 0.8rem;
+    }
+  
+    .stuff h1 {
+      font-size: 1rem;
+    }
+  
+    .stuff p {
+      font-size: 0.85rem;
+    }
+  
+    .wrapper {
+      width: 95%;
+      grid-template-columns: 100%;
+      font-size: 0.8rem !important;
+    }
+  
+    .wrapper > div {
+      padding: 10px 4px;
+    }
+  
+    .terminal {
+      width: 95%;
+      font-size: 10px;
+      top: 45%;
+    }
+  }
+  
